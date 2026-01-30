@@ -1,0 +1,3 @@
+Echo back the following message exactly as received:
+
+"Hello MCP Server, this is a basic echo test."

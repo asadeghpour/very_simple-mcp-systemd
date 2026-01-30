@@ -1,0 +1,6 @@
+Check if the MCP server is running correctly.
+
+Return a simple status message indicating:
+- server is alive
+- current timestamp
+- server version (if available)

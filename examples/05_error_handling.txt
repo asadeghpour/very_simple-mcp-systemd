@@ -1,0 +1,6 @@
+Trigger a controlled error to test error handling.
+
+Requirements:
+- Do not crash the server
+- Return a clear error message
+- Include an error code or identifier

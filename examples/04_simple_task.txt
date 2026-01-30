@@ -1,0 +1,5 @@
+Perform a simple task to verify request handling.
+
+Task:
+- Generate a random number between 1 and 100
+- Return the number with a short explanation

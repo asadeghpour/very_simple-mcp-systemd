@@ -1,0 +1,6 @@
+Simulate handling multiple requests.
+
+Explain how the server would:
+- accept concurrent requests
+- queue or process them
+- ensure stability under load

@@ -1,0 +1,6 @@
+Return the currently active server configuration.
+
+Include:
+- configuration source
+- environment (development or production)
+- any enabled features
