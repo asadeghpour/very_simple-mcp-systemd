@@ -1,0 +1,5 @@
+node_modules/
+mcp-venv/
+dist/
+debug.log
+.env

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "systemd-manager": {
+      "enabled": true,
+      "transport": "stdio",
+      "command": "node",
+      "args": ["/root/mcp-systemd/dist/index.js"]
+    }
+  }
+}
+

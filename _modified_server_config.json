@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "systemd-manager": {
+      "name": "systemd-manager",
+      "command": "node",
+      "args": [
+        "/root/mcp-systemd/dist/index.js"
+      ],
+      "env": {
+        "PATH": "/root/mcp-systemd/mcp-venv/bin:/root/.local/share/../bin:/root/.config/nvm/versions/node/v20.20.0/bin:/sbin:/usr/sbin:/usr/local/sbin:/root/.local/bin:/root/bin:/usr/local/bin:/usr/bin:/bin",
+        "PYTHONWARNINGS": "ignore",
+        "LOG_LEVEL": "WARNING",
+        "CHUK_LOG_LEVEL": "WARNING",
+        "MCP_LOG_LEVEL": "WARNING"
+      }
+    }
+  },
+  "defaultProvider": "openai",
+  "defaultModel": "gpt-4",
+  "theme": "default",
+  "verbose": true,
+  "confirmTools": true
+}
