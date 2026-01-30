@@ -1,0 +1,10 @@
+[Unit]
+Description=Very Simple MCP Server (User)
+
+[Service]
+ExecStart=%h/.npm-global/bin/very-simple-mcp
+Restart=always
+
+[Install]
+WantedBy=default.target
+
